@@ -183,6 +183,7 @@ FunctionHeader      ::= Linkage?
                         GLOBAL_IDENTIFIER
                         '(' ParameterList? ')'
                         unnamed_addr?
+                        AddressSpace?
                         FunctionAttribute*
                         Section?
                         Comdat?
