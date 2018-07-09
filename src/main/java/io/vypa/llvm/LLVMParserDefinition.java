@@ -350,7 +350,7 @@ public class LLVMParserDefinition implements ParserDefinition {
     }
 
     @Override
-    public ParserDefinition.SpaceRequirements spaceExistanceTypeBetweenTokens(ASTNode left, ASTNode right) {
+    public SpaceRequirements spaceExistenceTypeBetweenTokens(ASTNode left, ASTNode right) {
         return ParserDefinition.SpaceRequirements.MAY;
     }
 
